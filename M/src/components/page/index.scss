@@ -1,0 +1,126 @@
+#page{
+	.top{
+		position:absolute;
+		left:0;
+		top:0.4rem;
+		width:100%;
+		height:0.4rem;
+		background:#fff;
+		border-bottom: 0.01rem solid #ccc;
+		text-align:center;
+		font:0.2rem/0.4rem "";
+	}
+	.list{
+		ul{
+					width:100%;
+						li{
+							width:100%;
+							height:0.7rem;
+							list-style:none;
+							position:relative;
+							.l{
+								img{
+								width:0.5rem;
+								height:0.5rem;
+								float:left;
+								margin:0.1rem 0 0 0.1rem;
+							    
+							}
+							i{
+								display:block;
+								width:0.5rem;
+								height:0.5rem;
+								position:absolute;
+								left:0.1rem;
+								top:0.1rem;
+								background:#000;
+								opacity:0.5;
+							}
+							b{
+								background:url("../../assets/thumbnails.png") no-repeat;
+								background-size:0.56rem 0.55rem;
+								display:inline-block;
+								width:0.24rem;
+								height:0.24rem;
+								background-position:0 0;
+								position:absolute; 
+								left:0.2rem;
+								top:0.2rem; 
+							}
+							}
+							.r{
+								width:2.8rem;
+								font:0.12rem/0.20rem "";
+								float:left;
+								color:#757575;
+								margin-left:0.1rem;
+								margin-top:0.05rem;
+								.p{
+									width:2.8rem;
+									height:0.40rem;
+									overflow: hidden;
+								}
+							}	
+						}
+			}
+	}
+   .last{
+   	 width:80%;
+   	 height:0.3rem;
+   	 background:#eee;
+   	 border:0.01rem solid #ccc;
+   	 font:0.16rem/0.3rem "";
+   	 text-align:center;
+   	 margin:0.2rem 0.35rem;
+
+
+   }
+   #footer{
+   	margin:0.5rem 0 0.2rem 0;
+   	text-align:center;
+   	font:0.12rem/0.2rem "";
+   	.p{
+   		a{
+   			text-decoration:none;
+   			color:#9e9e9e;
+   			margin:0.1rem 0.2rem;
+   			i{
+   				background:url("../../assets/sprite-icons.png") no-repeat;
+   				background-size:1.51rem 1.29rem;
+   				background-position:-0.985rem -0.935rem;
+   				display:inline-block;
+   				width:0.155rem;
+   				height:0.165rem;
+   			}
+   		}
+
+   	}
+   	.p1{
+   		margin-top:0.1rem;
+   		color:#9e9e9e;
+   	}
+   }
+   .biao{
+   	.pagination-container {
+   	  margin: 0 15px;
+   	}
+
+   	.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+   	  padding-left: 0;
+   	  padding-right: 10px;
+   	}
+   	.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+   	  padding-left: 10px;
+   	  padding-right: 0;
+   	}
+   	.arrow-align {
+   	  display: flex;
+   	  align-items: center;
+   	}
+   	.sub-title {
+   	  color: #888;
+   	  font-size: 14px;
+   	  padding: 30px 0 18px 0;
+   	}
+   }
+}

@@ -1,0 +1,177 @@
+#darma{
+	background:#eee;
+	.title{
+		width:100%;
+		height:0.4rem;
+		font:0.2rem/0.4rem "";
+		position:absolute;
+		left:0;
+		top:0.4rem;
+		z-index:2;
+		background:#fff;
+		text-align:center;
+	}
+	#main{
+		.tou{
+			font:0.2rem/0.4rem "";
+			width:100%;
+			height:0.4rem;
+			display:flex;
+			justify-content: space-around;
+			padding:0.3rem 0;
+			a{
+				display:inline-block;
+				width:1.72rem;
+				height:0.4rem;
+				background:#fff;
+				border:0.01rem solid #eee;
+				text-align:center;
+				text-decoration:none;
+				color:#000;
+
+			}
+		}
+		.t{
+			margin-bottom:0.3rem;
+			.option{
+				font:0.2rem/0.4rem "";
+				margin-left:0.1rem;
+			}
+			ul{
+				width:94%;
+				padding:0 0.1rem;
+				display:flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				li{
+					list-style:none;
+					font:0.12rem/0.2rem "";
+					width:1.1rem;
+					margin-bottom:0.2rem;
+					img{
+						width:100%
+					}
+					a{
+						text-decoration:none;
+						.name{
+							color:#000;
+							width:1.1rem;
+							overflow:hidden;
+							height:0.2rem;
+						}
+						.qi{
+							color:#ccc;
+							span{
+								color:#666;
+								margin-left:0.1rem;
+							}
+						}
+					}
+				}
+			}
+		}
+		.c{
+			margin-bottom:0.3rem;
+			.option{
+				font:0.2rem/0.4rem "";
+				margin-left:0.1rem;
+			}
+			ul{
+				width:94%;
+				padding:0 0.1rem;
+				display:flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				li{
+					list-style:none;
+					font:0.12rem/0.2rem "";
+					width:1.1rem;
+					margin-bottom:0.2rem;
+					img{
+						width:100%
+					}
+					a{
+						text-decoration:none;
+						.name{
+							color:#000;
+							width:1.1rem;
+							overflow:hidden;
+							height:0.2rem;
+						}
+						.qi{
+							color:#ccc;
+							span{
+								color:#666;
+								margin-left:0.1rem;
+							}
+						}
+					}
+				}
+			}
+		}
+		.b{
+			margin-bottom:0.3rem;
+			.option{
+				font:0.2rem/0.4rem "";
+				margin-left:0.1rem;
+			}
+			ul{
+				width:94%;
+				padding:0 0.1rem;
+				display:flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				li{
+					list-style:none;
+					font:0.12rem/0.2rem "";
+					width:1.1rem;
+					margin-bottom:0.2rem;
+					img{
+						width:100%
+					}
+					a{
+						text-decoration:none;
+						.name{
+							color:#000;
+							width:1.1rem;
+							overflow:hidden;
+							height:0.2rem;
+						}
+						.qi{
+							color:#ccc;
+							span{
+								color:#666;
+								margin-left:0.1rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	#footer{
+		padding-bottom:0.2rem;
+		text-align:center;
+		font:0.12rem/0.2rem "";
+		.p{
+			a{
+				text-decoration:none;
+				color:#9e9e9e;
+				margin:0.1rem 0.2rem;
+				i{
+					background:url("../../assets/sprite-icons.png") no-repeat;
+					background-size:1.51rem 1.29rem;
+					background-position:-0.985rem -0.935rem;
+					display:inline-block;
+					width:0.155rem;
+					height:0.165rem;
+				}
+			}
+
+		}
+		.p1{
+			margin-top:0.1rem;
+			color:#9e9e9e;
+		}
+	}
+}

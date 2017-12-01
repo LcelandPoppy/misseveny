@@ -1,0 +1,57 @@
+#carts{
+	.title{
+		position:absolute;
+		left:0;
+		top:0.4rem;
+		width:100%;
+		height:0.4rem;
+		text-align:center;
+		font:0.2rem/0.4rem "";
+		border-bottom:2px dashed #ddd;
+		background:#fff;
+	}
+	ul{
+		width:100%;
+		li{
+			width:97%;
+			height:2rem;
+			padding:0.1rem 0 0 0.1rem;
+			border-bottom:2px dashed #ddd;
+			img{
+				width:30%;
+				height:1.8rem;
+				float:left;
+			}
+			.content{
+				width:2.5rem;
+				float:right;
+				.tit{
+					font:0.16rem/0.3rem "";
+					margin-right:0.2rem;
+					width:2rem;
+					color:#000;
+
+				}
+				.count{
+					width:1.8rem;
+					height:0.4rem;
+					margin-top:0.7rem;
+					text-align:center;
+					line-height:0.4rem;
+					font-size:0.16rem;
+					color:#000;
+					i{
+						background:url("../../assets/sound.png") no-repeat;
+						background-size:1.1rem 0.8rem;
+						display:inline-block;
+						background-position:0 -0.58rem;
+						width:0.24rem;
+						height:0.21rem;
+						margin:0.1rem 0.1rem 0 0;
+					}
+				}
+			}
+			
+		}
+	}
+}
